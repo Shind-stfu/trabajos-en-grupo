@@ -1,0 +1,4 @@
+-- Las restricciones CHECK y FOREIGN KEY estan declaradas en 01_tables.sql.
+-- Este archivo queda reservado para restricciones adicionales si el proyecto crece.
+-- Regla de negocio: precio_venta se calcula en la API como precio_compra * (1 + margen_porcentaje/100).
+-- El backend valida esta regla y el precio unitario del detalle conserva el precio historico de venta.
